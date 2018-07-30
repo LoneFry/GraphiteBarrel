@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1068969da751bb797742c2c2d6e07f4f",
+    "packages": [
+        {
+            "name": "graphite/core",
+            "version": "dev-composerize",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LoneFry/Graphite.git",
+                "reference": "5e911670b41c1106db5a2d20cf064b66598ac757"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LoneFry/Graphite/zipball/5e911670b41c1106db5a2d20cf064b66598ac757",
+                "reference": "5e911670b41c1106db5a2d20cf064b66598ac757",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "suggest": {
+                "graphite/barrel": "Default controllers for basic auth/admin functionality",
+                "mpdf/mpdf": "To render views as PDF"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Graphite\\": "src/"
+                }
+            },
+            "description": "A small PHP framework",
+            "homepage": "https://github.com/LoneFry/Graphite",
+            "support": {
+                "source": "https://github.com/LoneFry/Graphite/tree/composerize",
+                "issues": "https://github.com/LoneFry/Graphite/issues"
+            },
+            "time": "2018-07-30T02:53:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.0"
+    },
+    "platform-dev": []
+}

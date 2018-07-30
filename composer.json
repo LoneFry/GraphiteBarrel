@@ -1,0 +1,27 @@
+{
+  "name": "graphite/barrel",
+  "description": "Default controllers for basic auth/admin functionality",
+  "homepage": "https://github.com/LoneFry/GraphiteBarrel",
+  "require": {
+    "php": "^7.0",
+    "graphite/core": "*"
+  },
+  "suggest": {
+    "mpdf/mpdf": "To render views as PDF"
+  },
+  "require-dev": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Graphite\\barrel\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/LoneFry/Graphite"
+    }
+  ]
+}
